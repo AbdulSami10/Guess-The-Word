@@ -17,6 +17,20 @@ const MainWork = () => {
     <React.Fragment>
       <div className="wrapper">
         <h1>Magical Game</h1>
+        <button
+          className="btn reset"
+          onClick={() => {
+            setSectionOne(true);
+            setSectionTwo(false);
+            setSectionThree(false);
+            setSectionFour(false);
+            setSectionFive(false);
+            setSectionSix(false);
+            setSectionSeven(false);
+          }}
+        >
+          Reset
+        </button>
         {sectionOne && (
           <section>
             <h2>Are You Ready To Play This Game</h2>

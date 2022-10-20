@@ -41,3 +41,10 @@ body {
 .wrapper section {
   display: block;
 }
+.reset {
+  background-color: red;
+  border: 1px solid red;
+}
+.reset:hover {
+  color: red;
+}
